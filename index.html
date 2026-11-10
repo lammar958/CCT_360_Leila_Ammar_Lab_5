@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Game Night</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <header>
+            <h1>Game Night</h1>
+            <p>Experience a basketball game through sounds and images!</p>
+            <p>Basketball arenas are one of my favourite places because I love the energy, excitement, and it's something I aspire to work for in the future.</p>
+        </header>
+
+       <main>
+        <section>
+            <h2>Part A: The Soundscape</h2>
+            <p>Listen to the sounds of a basketball arena focus on the cheering fans, the referee's whistle, and anything else you can pick up on.</p>
+
+            <audio id="player" controls>
+                <source src="audio/gamenight.mp3" type="audio/mpeg">
+            </audio>
+
+            <p id="audioMessage">Press play to experience game night.</p>
+        </section>
+
+        <section>
+            <h2>Part B: Interactive Arena</h2>
+            <p>Click each image to explore the sounds and sights of the game.</p>
+
+    <div class="gallery">
+
+        <div>
+            <img id="crowd" src="images/crowd.jpg" alt="Crowd">
+            <h3>Crowd</h3>
+        </div>
+
+        <div>
+            <img id="whistle" src="images/whistle.jpg" alt="Whistle">
+            <h3>Whistle</h3>
+        </div>
+
+        <div>
+            <img id="basket" src="images/basket.jpg" alt="Basket">
+            <h3>Basket</h3>
+        </div>
+
+    </div>
+
+            <p id="message">Choose an image!</p>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+ 
+
+    </body>
+</html>

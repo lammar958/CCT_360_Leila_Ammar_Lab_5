@@ -1,0 +1,38 @@
+body {
+    background-color: #f6f0e8;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    background-color: #1e293b;
+    color: white;
+    padding: 30px;
+}
+
+h2 {
+    color: #bf5b20;
+    margin-top: 40px;
+}
+
+audio {
+    width: 400px;
+    max-width: 100%;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+#message {
+    font-weight: bold;
+}
